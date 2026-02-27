@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>New Empire — Loading</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg"></div>
+  <div class="vignette"></div>
+
+  <main class="wrap">
+    <header class="topbar">
+      <div class="badge">NEW EMPIRE</div>
+      <div class="status">
+        <span class="dot"></span>
+        <span id="statusText">Verbinde…</span>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h1>NEW EMPIRE</h1>
+      <p class="subtitle">Einführung • Diplomatie • Wirtschaft • Operationen</p>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Start</h3>
+        <p>1 Planet • 1 Schiff • wenige Einheiten • begrenzte Ausrüstung</p>
+      </div>
+      <div class="card">
+        <h3>Expansion</h3>
+        <p>Eroberung • Basen • Bündnisse • Handel • Technologie</p>
+      </div>
+      <div class="card">
+        <h3>Fortschritt</h3>
+        <p>Alles wird IC verdient: Ressourcen • Forschung • Upgrades</p>
+      </div>
+    </section>
+
+    <section class="crawl">
+      <div class="crawl-inner" id="crawlInner">
+        <h2>A long time ago, in a server far, far away…</h2>
+        <p>
+          Willkommen beim <strong>New Empire</strong>.
+          Dein Weg beginnt klein — aber mit jedem Einsatz wächst deine Macht.
+          Verdiene dir Ausrüstung, Einfluss und Rang durch Missionen, Handel,
+          Diplomatie oder militärische Operationen.
+        </p>
+        <p>
+          <strong>Hinweis:</strong> Regeln lesen, Roleplay sauber halten, und
+          Einheitenleitungen werden gesucht.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="tips" id="tipText">Tipp: Nutze Diplomatie, bevor du die Flotte rufst.</div>
+
+      <div class="progress">
+        <div class="progress-label">
+          <span>Laden</span>
+          <span id="percent">0%</span>
+        </div>
+        <div class="bar">
+          <div class="bar-fill" id="barFill"></div>
+        </div>
+      </div>
+
+      <div class="small">
+        <span>Discord/Website:</span>
+        <span class="mono" id="communityUrl">discord.gg/DEININVITE</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
