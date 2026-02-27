@@ -3,7 +3,7 @@
 const tips = [
   "Tipp: Diplomatie bringt Ressourcen – Krieg bringt Kosten.",
   "Tipp: Verdiene dir Ausrüstung IC durch Missionen & Forschung.",
-  "Tipp: Handel mit anderen Fraktionen kann dir Technologievorteile geben.",
+  "Tipp: Wir Handelen mit anderen Fraktionen die uns Technologievorteile geben könnten.",
   "Tipp: Keine Übermacht am Anfang — baue dir deinen Rang auf.",
   "Tipp: Koordiniere Operationen über die Flottenführung."
 ];
@@ -15,7 +15,7 @@ const barFill = document.getElementById("barFill");
 const communityUrl = document.getElementById("communityUrl");
 
 // TODO: Hier deinen Discord/Website Link ändern:
-communityUrl.textContent = "discord.gg/DEININVITE";
+communityUrl.textContent = "https://discord.gg/CUHGGqxT92";
 
 // Tipps rotieren
 let tipIndex = 0;
