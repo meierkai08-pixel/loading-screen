@@ -159,7 +159,7 @@ body{
   font-weight: 700;
   letter-spacing:.04em;
   text-shadow: 0 10px 30px rgba(0,0,0,.8);
-  animation: crawl 26s linear infinite;
+  animation: crawl 80s linear infinite;
 }
 
 .crawl-inner h2{
