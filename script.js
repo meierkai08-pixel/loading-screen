@@ -28,7 +28,7 @@ setInterval(() => {
 let p = 0;
 const phases = [
   { until: 30, text: "Sammle Daten…" },
-  { until: 55, text: "Synchronisiere Ressourcen…" },
+  { until: 55, text: "Synchronisiere Daten…" },
   { until: 80, text: "Initialisiere Systeme…" },
   { until: 95, text: "Bereite Spawn vor…" },
   { until: 100, text: "Fast bereit…" }
